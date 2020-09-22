@@ -27,14 +27,8 @@ const countLetters = function(string) {
   return obj;
 };
 
-
-// assertEqual TEST FUNCTION
-const assertEqual = function(actual, expected) {
-  actual === expected ? console.log(`✅✅✅ Assertion Passed: ${actual} === ${expected}`) :
-    console.log(`🛑🛑🛑 Assertion Failed: ${actual} !== ${expected}`);
-};
+module.exports = countLetters;
 
 
 // test
-let tester = countLetters("lighthouse in the house");
-console.log(tester);
+// let tester = countLetters("lighthouse in the house");
